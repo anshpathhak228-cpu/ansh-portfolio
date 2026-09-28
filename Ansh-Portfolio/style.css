@@ -1412,3 +1412,22 @@ footer > a {
         padding-top: 65px;
     }
 }
+.project-link {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.project-open {
+    margin-top: 16px;
+    font-size: 13px;
+    font-weight: 600;
+    color: #2563eb;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.project-link:hover .project-open {
+    gap: 12px;
+}
